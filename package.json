@@ -1,7 +1,7 @@
 {
   "name": "to-flags",
   "description": "Convert the properties of an object to command line flags.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/jonschlinkert/to-flags",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/to-flags",
@@ -19,13 +19,46 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {
-    "is-plain-object": "^2.0.1",
-    "to-arg": "^1.1.0"
-  },
   "devDependencies": {
     "mocha": "*",
     "should": "*"
   },
-  "keywords": []
+  "dependencies": {
+    "to-flag": "^1.0.0"
+  },
+  "keywords": [
+    "arg",
+    "args",
+    "arguments",
+    "argv",
+    "bin",
+    "cli",
+    "cmd",
+    "command",
+    "command-line",
+    "dargs",
+    "expand",
+    "flag",
+    "flags",
+    "line",
+    "minimist",
+    "nopt",
+    "opt",
+    "options",
+    "opts",
+    "to",
+    "to-args",
+    "yargs"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "to-flag",
+        "minimist-plugins",
+        "minimist-events",
+        "minimist-methods",
+        "minimist-expand"
+      ]
+    }
+  }
 }
